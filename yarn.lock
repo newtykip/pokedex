@@ -96,6 +96,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sveltejs/adapter-vercel@npm:next":
+  version: 1.0.0-next.30
+  resolution: "@sveltejs/adapter-vercel@npm:1.0.0-next.30"
+  dependencies:
+    esbuild: ^0.13.3
+  checksum: 30314a0b03e45b89298df089e2f0d921f04ede06caed16c2ad326a76018c5b4123f95235f3236e93bba4005e50bdf2f6d7e0e66e6ebd534ca21bf1f25e539fe6
+  languageName: node
+  linkType: hard
+
 "@sveltejs/kit@npm:next":
   version: 1.0.0-next.180
   resolution: "@sveltejs/kit@npm:1.0.0-next.180"
@@ -1047,7 +1056,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.13.2":
+"esbuild@npm:^0.13.2, esbuild@npm:^0.13.3":
   version: 0.13.4
   resolution: "esbuild@npm:0.13.4"
   dependencies:
@@ -2055,6 +2064,7 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "pokedex@workspace:."
   dependencies:
+    "@sveltejs/adapter-vercel": next
     "@sveltejs/kit": next
     "@types/node": ^16.10.3
     autoprefixer: ^10.3.7
