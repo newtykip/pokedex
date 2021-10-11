@@ -8,6 +8,9 @@ let loaded = false;
 const getImage = (id: number) =>
 	`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 
+const getArtwork = (id: number) =>
+	`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+
 export interface BasePokemon {
 	name: string;
 	id: number;
@@ -61,7 +64,7 @@ export const getPokemonById = async (id: number): Promise<Pokemon> => {
 	return {
 		name,
 		id,
-		image: getImage(id),
+		image: getArtwork(id),
 		height: height / 10,
 		weight: weight / 10,
 		types: types.map(({ type }) => type.name),

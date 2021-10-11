@@ -2064,6 +2064,7 @@ fsevents@~2.3.2:
     prettier: ^2.4.1
     prettier-plugin-svelte: ^2.4.0
     svelte: ^3.42.6
+    svelte-awesome: ^2.4.2
     svelte-check: ^2.2.6
     svelte-preprocess: ^4.9.8
     tailwindcss: ^2.2.16
@@ -2925,6 +2926,15 @@ resolve@^1.20.0:
   dependencies:
     has-flag: ^4.0.0
   checksum: 3dda818de06ebbe5b9653e07842d9479f3555ebc77e9a0280caf5a14fb877ffee9ed57007c3b78f5a6324b8dbeec648d9e97a24e2ed9fdb81ddc69ea07100f4a
+  languageName: node
+  linkType: hard
+
+"svelte-awesome@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "svelte-awesome@npm:2.4.2"
+  peerDependencies:
+    svelte: ^3.43.1
+  checksum: c2b40e6755cdb10d708022ec239f9525fe87f2dd847a0e16249bbcf51e8e4f78beaafd929f353b107d5480afb92aab4e1ab88dab00c6abf072463a0798eeed67
   languageName: node
   linkType: hard
 
