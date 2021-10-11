@@ -12,6 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
+		"@types/node": "^16.10.3",
 		"autoprefixer": "^10.3.7",
 		"cssnano": "^5.0.8",
 		"postcss": "^8.3.9",
